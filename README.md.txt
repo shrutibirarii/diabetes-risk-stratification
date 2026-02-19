@@ -66,6 +66,28 @@ Key Focus:
 
 ---
 
+## 🌐 Interactive Web Application (Streamlit Deployment)
+
+An interactive web application was developed using Streamlit to allow real-time diabetes risk prediction.
+
+### App Features:
+- User-friendly input form for patient health metrics
+- Automatic feature scaling using trained StandardScaler
+- Real-time diabetes probability prediction
+- Clear risk classification (Low / High Risk)
+- Deployable via Streamlit Community Cloud
+
+### How to Run Locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The application simulates a real-world healthcare screening tool where clinicians can input patient data and receive instant risk assessment.
+
+---
+
 ## 🧠 Key Insights
 - Glucose is the most influential feature in diabetes prediction
 - Clustering revealed clinically meaningful risk segments
@@ -80,6 +102,7 @@ Key Focus:
 - NumPy
 - Scikit-learn
 - Matplotlib
+- Streamlit
 - Jupyter Notebook
 
 ---
@@ -96,4 +119,4 @@ Key Focus:
 - Hyperparameter tuning
 - Cross-validation
 - ROC-AUC optimization
-- Deployment as a Streamlit web app
+
